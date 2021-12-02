@@ -6,8 +6,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Input\Day2\" />
+    <None Remove="Solutions\Day2\" />
+  </ItemGroup>
+  <ItemGroup>
     <None Update="Input\Day1\input.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Input\Day2\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Input\Day2\" />
+    <Folder Include="Solutions\Day2\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Solutions\Day2\Dive.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
   </ItemGroup>
 </Project>
