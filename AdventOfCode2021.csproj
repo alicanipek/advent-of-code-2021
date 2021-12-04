@@ -10,6 +10,8 @@
     <None Remove="Solutions\Day2\" />
     <None Remove="Input\Day3\" />
     <None Remove="Solutions\Day3\" />
+    <None Remove="Input\Day4\" />
+    <None Remove="Solutions\Day4\" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Input\Day1\input.txt">
@@ -21,17 +23,17 @@
     <None Update="Input\Day3\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="Input\Day4\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Input\Day2\" />
     <Folder Include="Solutions\Day2\" />
     <Folder Include="Input\Day3\" />
-    <Folder Include="Solutions\Day3\" />
+    <Folder Include="Solutions\Day3\" />    
+    <Folder Include="Input\Day4\" />
+    <Folder Include="Solutions\Day4\" />
     <Folder Include="**/*" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Update="Solutions\Day2\Dive.cs">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Compile>
   </ItemGroup>
 </Project>
