@@ -2,6 +2,7 @@
 using AdventOfCode2021.Solutions.Day1;
 using AdventOfCode2021.Solutions.Day2;
 using AdventOfCode2021.Solutions.Day3;
+using AdventOfCode2021.Solutions.Day4;
 
 namespace AdventOfCode2021 {
 	class Program {
@@ -15,9 +16,15 @@ namespace AdventOfCode2021 {
 			// var count = dive.CalculatePositionWithAim();
 			// Console.WriteLine(count);
 
-			BinaryDiagnostic binaryDiagnostic = new BinaryDiagnostic();
-			var count = binaryDiagnostic.CalculateLifeSupportRating();
-			Console.WriteLine(count);
+			// Day 3
+			// BinaryDiagnostic binaryDiagnostic = new BinaryDiagnostic();
+			// var count = binaryDiagnostic.CalculateLifeSupportRating();
+			// Console.WriteLine(count);
+
+			// Day 4
+			GiantSquid giantSquid = new GiantSquid();
+			var score = giantSquid.BingoSquidWin();
+			System.Console.WriteLine(score);
 		}
 	}
 }

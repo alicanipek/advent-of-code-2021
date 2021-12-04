@@ -13,6 +13,8 @@ namespace AdventOfCode2021.Solutions.Day1 {
 				Depths.Add(int.Parse(str));
 			}
 		}
+
+		// Part 1
 		public int CalculateIncreaseCount() {
 			var count = 0;
 			for (int i = 0; i < Depths.Count - 1; i++) {
@@ -22,6 +24,8 @@ namespace AdventOfCode2021.Solutions.Day1 {
 			}
 			return count;
 		}
+
+		// Part 2
 		public int CalculateWindowIncreaseCount() {
 			var count = 0;
 			for (int i = 0; i < Depths.Count - 3; i++) {

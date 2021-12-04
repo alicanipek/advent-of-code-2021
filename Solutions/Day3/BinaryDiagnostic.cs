@@ -12,6 +12,7 @@ namespace AdventOfCode2021.Solutions.Day3 {
 			Diagnostics = File.ReadAllLines(path);
 		}
 
+		// Part 1
 		public int CalculatePowerConsumption() {
 			var gammaRate = "";
 			var epsilonRate = "";
@@ -31,6 +32,7 @@ namespace AdventOfCode2021.Solutions.Day3 {
 			return ToDecimal(gammaRate) * ToDecimal(epsilonRate);
 		}
 
+		// Part 2
 		public int CalculateLifeSupportRating() {
 			var oxygen = Diagnostics.ToList();
 			var carbon = Diagnostics.ToList();

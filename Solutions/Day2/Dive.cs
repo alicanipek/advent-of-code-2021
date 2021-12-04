@@ -18,6 +18,7 @@ namespace AdventOfCode2021.Solutions.Day2 {
 			}
 		}
 
+		// Part 1
 		public int CalculatePosition() {
 			int horizontal = 0;
 			int depth = 0;
@@ -38,6 +39,8 @@ namespace AdventOfCode2021.Solutions.Day2 {
 			}
 			return depth * horizontal;
 		}
+
+		// Part 2
 		public int CalculatePositionWithAim() {
 			int horizontal = 0;
 			int depth = 0;
