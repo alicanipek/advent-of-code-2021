@@ -26,6 +26,9 @@
     <None Update="Input\Day4\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="Input\Day5\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Input\Day2\" />
@@ -33,7 +36,9 @@
     <Folder Include="Input\Day3\" />
     <Folder Include="Solutions\Day3\" />    
     <Folder Include="Input\Day4\" />
-    <Folder Include="Solutions\Day4\" />
+    <Folder Include="Solutions\Day4\" /> 
+    <Folder Include="Input\Day5\" />
+    <Folder Include="Solutions\Day5\" />
     <Folder Include="**/*" />
   </ItemGroup>
 </Project>
