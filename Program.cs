@@ -4,6 +4,8 @@ using AdventOfCode2021.Solutions.Day2;
 using AdventOfCode2021.Solutions.Day3;
 using AdventOfCode2021.Solutions.Day4;
 using AdventOfCode2021.Solutions.Day5;
+using AdventOfCode2021.Solutions.Day6;
+
 namespace AdventOfCode2021 {
 	class Program {
 		static void Main(string[] args) {
@@ -27,9 +29,14 @@ namespace AdventOfCode2021 {
 			// System.Console.WriteLine(score);
 
 			// Day 5
-			HydrothermalVenture hydrothermalVenture = new HydrothermalVenture();
-			var count = hydrothermalVenture.CalculateOverlapsWithDiagonal();
-			Console.Write(count);
+			// HydrothermalVenture hydrothermalVenture = new HydrothermalVenture();
+			// var count = hydrothermalVenture.CalculateOverlapsWithDiagonal();
+			// Console.Write(count);
+
+			// Day 6
+			LanternFish lanternfish = new LanternFish();
+			var count = lanternfish.CountLanternFishes();
+			Console.WriteLine(count);
 		}
 	}
 }
