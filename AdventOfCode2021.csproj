@@ -4,50 +4,9 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
-    <None Remove="Input\Day2\" />
-    <None Remove="Solutions\Day2\" />
-    <None Remove="Input\Day3\" />
-    <None Remove="Solutions\Day3\" />
-    <None Remove="Input\Day4\" />
-    <None Remove="Solutions\Day4\" />
-    <None Remove="Input\Day5\" />
-    <None Remove="Solutions\Day5\" />
-    <None Remove="Input\Day6\" />
-    <None Remove="Solutions\Day6\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Update="Input\Day1\input.txt">
+    <None Update="Input\**">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Input\Day2\input.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Input\Day3\input.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Input\Day4\input.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Input\Day5\input.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Input\Day6\input.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Input\Day2\" />
-    <Folder Include="Solutions\Day2\" />
-    <Folder Include="Input\Day3\" />
-    <Folder Include="Solutions\Day3\" />    
-    <Folder Include="Input\Day4\" />
-    <Folder Include="Solutions\Day4\" /> 
-    <Folder Include="Input\Day5\" />
-    <Folder Include="Solutions\Day5\" />
-    <Folder Include="Input\Day6\" />
-    <Folder Include="Solutions\Day6\" />
-    <Folder Include="**/*" />
   </ItemGroup>
 </Project>
