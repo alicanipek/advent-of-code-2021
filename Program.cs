@@ -6,6 +6,7 @@ using AdventOfCode2021.Solutions.Day4;
 using AdventOfCode2021.Solutions.Day5;
 using AdventOfCode2021.Solutions.Day6;
 using AdventOfCode2021.Solutions.Day7;
+using AdventOfCode2021.Solutions.Day8;
 
 namespace AdventOfCode2021 {
 	class Program {
@@ -40,8 +41,12 @@ namespace AdventOfCode2021 {
 			// Console.WriteLine(count);
 
 			// Day 7
-			TheTreacheryOfWhales theTreacheryOfWhales = new TheTreacheryOfWhales();
-			var count = theTreacheryOfWhales.CalculateOptimalPosition2();
+			// TheTreacheryOfWhales theTreacheryOfWhales = new TheTreacheryOfWhales();
+			// var count = theTreacheryOfWhales.CalculateOptimalPosition2();
+			// System.Console.WriteLine(count);
+
+			SevenSegmentSearch sevenSegmentSearch = new SevenSegmentSearch();
+			var count = sevenSegmentSearch.CountDigits();
 			System.Console.WriteLine(count);
 		}
 	}
