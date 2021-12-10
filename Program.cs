@@ -1,5 +1,6 @@
 ﻿using System;
 using AdventOfCode2021.Solutions.Day1;
+using AdventOfCode2021.Solutions.Day10;
 using AdventOfCode2021.Solutions.Day2;
 using AdventOfCode2021.Solutions.Day3;
 using AdventOfCode2021.Solutions.Day4;
@@ -52,9 +53,14 @@ namespace AdventOfCode2021 {
 			// System.Console.WriteLine(count);
 
 			// Day 9
-			SmokeBasin smokeBasin = new SmokeBasin();
-			var count = smokeBasin.CalculateBasinLevel();
-			System.Console.WriteLine(count);
+			// SmokeBasin smokeBasin = new SmokeBasin();
+			// var count = smokeBasin.CalculateBasinLevel();
+			// System.Console.WriteLine(count);
+
+			// Day 10
+			SyntaxScoring syntaxScoring = new SyntaxScoring();
+			var score = syntaxScoring.GetIncompleteScore();
+			System.Console.WriteLine(score);
 		}
 	}
 }
