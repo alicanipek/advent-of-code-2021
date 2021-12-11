@@ -16,6 +16,7 @@ namespace AdventOfCode2021.Solutions.Day10 {
 			}
 		}
 
+		// Part 1
 		public int GetCorruptedScore() {
 			var score = 0;
 			foreach (var c in Chunks) {
@@ -37,6 +38,8 @@ namespace AdventOfCode2021.Solutions.Day10 {
 			}
             return score;
 		}
+
+		// Part 2
         public long GetIncompleteScore() {
 			var scores = new List<long>();
 			foreach (var c in Chunks) {

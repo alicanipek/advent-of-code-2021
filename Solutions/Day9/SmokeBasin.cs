@@ -18,6 +18,7 @@ namespace AdventOfCode2021.Solutions.Day9 {
 			}
 		}
 
+		// Part 1
 		public int CalculateRiskLevel() {
 			var level = 0;
 			for (int i = 0; i < Caves.Count; i++) {
@@ -31,6 +32,7 @@ namespace AdventOfCode2021.Solutions.Day9 {
 			return level;
 		}
 
+		// Part 2
 		public int CalculateBasinLevel() {
 			var basinLevels = new List<int>();
 			var seen = new bool[Caves.Count, Caves[0].Count];

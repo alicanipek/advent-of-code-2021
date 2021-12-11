@@ -15,6 +15,8 @@ namespace AdventOfCode2021.Solutions.Day7 {
 				CrabPositions = Array.ConvertAll(line.Split(','), int.Parse);
 			}
 		}
+
+		// Part 1
 		public int CalculateOptimalPosition() {
 			var biggest = CrabPositions.Max();
             var counts = new List<int>();
@@ -29,6 +31,8 @@ namespace AdventOfCode2021.Solutions.Day7 {
             Console.WriteLine(counts.Min());
             return counts.IndexOf(counts.Min());
 		}
+
+		// Part 2
 		public int CalculateOptimalPosition2() {
 			var biggest = CrabPositions.Max();
             var counts = new List<int>();
