@@ -5,7 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace AdventOfCode2021.Solutions.Day8 {
+namespace AdventOfCode2021.Solutions {
 	public class SevenSegmentSearch {
 		private readonly List<string> OutputPatterns;
 		public SevenSegmentSearch() {

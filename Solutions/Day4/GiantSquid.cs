@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 
-namespace AdventOfCode2021.Solutions.Day4 {
+namespace AdventOfCode2021.Solutions {
 	public class GiantSquid {
 		private readonly int[] DrawnNumbers;
 		private readonly List<List<int[]>> Boards = new List<List<int[]>>();

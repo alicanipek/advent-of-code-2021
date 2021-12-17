@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 
-namespace AdventOfCode2021.Solutions.Day5 {
+namespace AdventOfCode2021.Solutions {
 	public class HydrothermalVenture {
 		private int[,] vents = new int[1000, 1000];
 		private List<List<int[]>> input = new List<List<int[]>>();

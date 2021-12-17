@@ -5,7 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace AdventOfCode2021.Solutions.Day12 {
+namespace AdventOfCode2021.Solutions {
 	public class PassagePathing {
 		private readonly Dictionary<string, List<string>> Paths;
 

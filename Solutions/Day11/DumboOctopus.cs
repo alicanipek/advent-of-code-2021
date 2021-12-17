@@ -5,7 +5,7 @@ using System.Linq;
 using System.Reflection;
 
 
-namespace AdventOfCode2021.Solutions.Day11 {
+namespace AdventOfCode2021.Solutions {
 	public class DumboOctopus {
 		private readonly List<List<int>> EnergyLevels = new List<List<int>>();
 		private readonly int[,] Directions;

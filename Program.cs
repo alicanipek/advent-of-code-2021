@@ -1,16 +1,5 @@
 ﻿using System;
-using AdventOfCode2021.Solutions.Day1;
-using AdventOfCode2021.Solutions.Day10;
-using AdventOfCode2021.Solutions.Day11;
-using AdventOfCode2021.Solutions.Day12;
-using AdventOfCode2021.Solutions.Day2;
-using AdventOfCode2021.Solutions.Day3;
-using AdventOfCode2021.Solutions.Day4;
-using AdventOfCode2021.Solutions.Day5;
-using AdventOfCode2021.Solutions.Day6;
-using AdventOfCode2021.Solutions.Day7;
-using AdventOfCode2021.Solutions.Day8;
-using AdventOfCode2021.Solutions.Day9;
+using AdventOfCode2021.Solutions;
 
 namespace AdventOfCode2021 {
 	class Program {
@@ -70,9 +59,13 @@ namespace AdventOfCode2021 {
 			// System.Console.WriteLine(count);
 
 			// Day 12
-			PassagePathing passagePathing = new PassagePathing();
-			var count = passagePathing.CalculatePathsRepeating();
-			System.Console.WriteLine(count);
+			// PassagePathing passagePathing = new PassagePathing();
+			// var count = passagePathing.CalculatePathsRepeating();
+			// System.Console.WriteLine(count);
+
+			// Day 13
+			TransparentOrigami transparentOrigami = new TransparentOrigami();
+			transparentOrigami.PrintDotsAfterFold();
 		}
 	}
 }
