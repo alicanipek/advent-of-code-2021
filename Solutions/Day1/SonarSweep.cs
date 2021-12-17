@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 
-namespace AdventOfCode2021.Solutions.Day1 {
+namespace AdventOfCode2021.Solutions {
 	public class SonarSweep {
 		private readonly List<int> Depths = new List<int>();
 

@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-namespace AdventOfCode2021.Solutions.Day10 {
+namespace AdventOfCode2021.Solutions {
 	public class SyntaxScoring {
 		private readonly List<string> Chunks;
 		public SyntaxScoring() {

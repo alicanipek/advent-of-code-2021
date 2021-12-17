@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 
-namespace AdventOfCode2021.Solutions.Day9 {
+namespace AdventOfCode2021.Solutions {
 	public class SmokeBasin {
 		private readonly List<List<int>> Caves = new List<List<int>>();
 		public SmokeBasin() {

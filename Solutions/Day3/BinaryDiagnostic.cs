@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 
-namespace AdventOfCode2021.Solutions.Day3 {
+namespace AdventOfCode2021.Solutions {
 	public class BinaryDiagnostic {
 		private readonly string[] Diagnostics;
 		public BinaryDiagnostic() {

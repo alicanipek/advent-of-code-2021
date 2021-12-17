@@ -5,7 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace AdventOfCode2021.Solutions.Day7 {
+namespace AdventOfCode2021.Solutions {
 	public class TheTreacheryOfWhales {
 		private readonly int[] CrabPositions;
 		public TheTreacheryOfWhales() {

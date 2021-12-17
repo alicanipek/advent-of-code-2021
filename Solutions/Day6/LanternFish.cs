@@ -5,7 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace AdventOfCode2021.Solutions.Day6 {
+namespace AdventOfCode2021.Solutions {
 	public class LanternFish {
 		private readonly int[] LanternFishes;
 		public LanternFish() {

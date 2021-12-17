@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 
-namespace AdventOfCode2021.Solutions.Day2 {
+namespace AdventOfCode2021.Solutions {
 	public class Dive {
 		private readonly List<Command> Commands = new List<Command>();
 		public Dive() {
