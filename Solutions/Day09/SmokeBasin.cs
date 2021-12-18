@@ -8,7 +8,7 @@ namespace AdventOfCode2021.Solutions {
 	public class SmokeBasin {
 		private readonly List<List<int>> Caves = new List<List<int>>();
 		public SmokeBasin() {
-			var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "Input/Day9/input.txt");
+			var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "Input/Day09/input.txt");
 			foreach (var str in File.ReadAllLines(path)) {
 				var cave = new List<int>();
 				foreach (var c in str) {

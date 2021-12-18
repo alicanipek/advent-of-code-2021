@@ -8,7 +8,7 @@ namespace AdventOfCode2021.Solutions {
 	public class BinaryDiagnostic {
 		private readonly string[] Diagnostics;
 		public BinaryDiagnostic() {
-			var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "Input/Day3/input.txt");
+			var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "Input/Day03/input.txt");
 			Diagnostics = File.ReadAllLines(path);
 		}
 

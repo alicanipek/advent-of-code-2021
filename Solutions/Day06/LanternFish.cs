@@ -9,7 +9,7 @@ namespace AdventOfCode2021.Solutions {
 	public class LanternFish {
 		private readonly int[] LanternFishes;
 		public LanternFish() {
-			var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "Input/Day6/input.txt");
+			var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "Input/Day06/input.txt");
 			using (StreamReader reader = new StreamReader(path)) {
 				string line = reader.ReadLine();
 				LanternFishes = Array.ConvertAll(line.Split(','), int.Parse);

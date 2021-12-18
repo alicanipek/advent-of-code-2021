@@ -10,7 +10,7 @@ namespace AdventOfCode2021.Solutions {
 		private List<List<int[]>> input = new List<List<int[]>>();
 
 		public HydrothermalVenture() {
-			var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "Input/Day5/input.txt");
+			var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "Input/Day05/input.txt");
 			foreach (var line in File.ReadAllLines(path)) {
 				var str = line.Split("->");
 				var firstInput = Array.ConvertAll(str[0].Trim().Split(','), int.Parse);

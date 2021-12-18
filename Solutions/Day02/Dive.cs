@@ -7,7 +7,7 @@ namespace AdventOfCode2021.Solutions {
 	public class Dive {
 		private readonly List<Command> Commands = new List<Command>();
 		public Dive() {
-			var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "Input/Day2/input.txt");
+			var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "Input/Day02/input.txt");
 			foreach (var str in File.ReadAllLines(path)) {
 				var line = str.Split(' ');
 				var command = new Command {

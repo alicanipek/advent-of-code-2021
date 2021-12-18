@@ -64,8 +64,14 @@ namespace AdventOfCode2021 {
 			// System.Console.WriteLine(count);
 
 			// Day 13
-			TransparentOrigami transparentOrigami = new TransparentOrigami();
-			transparentOrigami.PrintDotsAfterFold();
+			// TransparentOrigami transparentOrigami = new TransparentOrigami();
+			// transparentOrigami.PrintDotsAfterFold();
+
+			// Day 14
+			ExtendedPolymerization extendedPolymerization = new ExtendedPolymerization();
+			extendedPolymerization.Polymerize();
+			// var count = extendedPolymerization.CalculateValueAfterPolymerization();
+			// System.Console.WriteLine(count);
 		}
 	}
 }
