@@ -10,7 +10,7 @@ namespace AdventOfCode2021.Solutions {
 		private readonly List<string> OutputPatterns;
 		public SevenSegmentSearch() {
 			OutputPatterns = new List<string>();
-			var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "Input/Day8/input.txt");
+			var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "Input/Day08/input.txt");
 			foreach (var str in File.ReadAllLines(path)) {
 				OutputPatterns.Add(str.Split('|')[1].Trim());
 			}

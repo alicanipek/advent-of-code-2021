@@ -8,7 +8,7 @@ namespace AdventOfCode2021.Solutions {
 		private readonly List<int> Depths = new List<int>();
 
 		public SonarSweep() {
-			var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "Input/Day1/input.txt");
+			var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "Input/Day01/input.txt");
 			foreach (var str in File.ReadAllLines(path)) {
 				Depths.Add(int.Parse(str));
 			}

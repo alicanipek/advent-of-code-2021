@@ -9,7 +9,7 @@ namespace AdventOfCode2021.Solutions {
 	public class TheTreacheryOfWhales {
 		private readonly int[] CrabPositions;
 		public TheTreacheryOfWhales() {
-			var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "Input/Day7/input.txt");
+			var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "Input/Day07/input.txt");
 			using (StreamReader reader = new StreamReader(path)) {
 				string line = reader.ReadLine();
 				CrabPositions = Array.ConvertAll(line.Split(','), int.Parse);

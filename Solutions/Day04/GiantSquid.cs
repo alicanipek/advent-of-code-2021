@@ -9,7 +9,7 @@ namespace AdventOfCode2021.Solutions {
 		private readonly int[] DrawnNumbers;
 		private readonly List<List<int[]>> Boards = new List<List<int[]>>();
 		public GiantSquid() {
-			var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "Input/Day4/input.txt");
+			var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "Input/Day04/input.txt");
 			using (StreamReader reader = new StreamReader(path)) {
 				string line1 = reader.ReadLine();
 				DrawnNumbers = line1.Split(',').Select(int.Parse).ToArray();
