@@ -68,10 +68,18 @@ namespace AdventOfCode2021 {
 			// transparentOrigami.PrintDotsAfterFold();
 
 			// Day 14
-			ExtendedPolymerization extendedPolymerization = new ExtendedPolymerization();
-			extendedPolymerization.Polymerize();
-			// var count = extendedPolymerization.CalculateValueAfterPolymerization();
-			// System.Console.WriteLine(count);
+			// ExtendedPolymerization extendedPolymerization = new ExtendedPolymerization();
+			// extendedPolymerization.Polymerize();
+
+			// Day 15
+			Chiton chiton = new Chiton();
+			
+			System.Console.WriteLine(chiton.Part1());
+			System.Console.WriteLine(chiton.Part2());
+
+			// Day15 day15 = new Day15();
+			// day15.Run();
+
 		}
 	}
 }
